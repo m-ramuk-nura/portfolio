@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ArunKumar M — Robotics Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= STICKY NAV ================= -->
+<div class="sticky-nav" id="stickyNav">
+  <div class="sticky-logo"><span class="logo-mark">AK</span> Arun</div>
+  <div class="sticky-tabs">
+    <a class="sticky-tab" href="#hero" data-target="hero">Home</a>
+    <a class="sticky-tab" href="#about" data-target="about">About</a>
+    <a class="sticky-tab" href="#skills" data-target="skills">Skills</a>
+    <a class="sticky-tab" href="#internships" data-target="internships">Internships</a>
+    <a class="sticky-tab" href="#projects" data-target="projects">Projects</a>
+    <a class="sticky-tab" href="#achievements" data-target="achievements">Achievements</a>
+    <a class="sticky-tab" href="#certifications" data-target="certifications">Certifications</a>
+    <a class="sticky-tab" href="#education" data-target="education">Education</a>
+  </div>
+</div>
+
+<!-- ================= HERO (HOME) ================= -->
+<header class="hero" id="hero">
+  <div class="hero-bg">
+    <video autoplay muted loop playsinline preload="auto" poster="assets/media/video/hero-poster.jpg">
+      <source src="media/covervideo-loop.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="wrap hero-content">
+    <div class="topbar">
+      <div class="logo"><span class="logo-mark">AK</span> ArunKumar M</div>
+
+      <nav class="nav-tabs" id="navTabs">
+        <a class="nav-tab active" href="#hero" data-target="hero"><span class="tab-dot"></span>Home</a>
+        <a class="nav-tab" href="#about" data-target="about"><span class="tab-dot"></span>About</a>
+        <a class="nav-tab" href="#skills" data-target="skills"><span class="tab-dot"></span>Skills</a>
+        <a class="nav-tab" href="#internships" data-target="internships"><span class="tab-dot"></span>Internships</a>
+        <a class="nav-tab" href="#projects" data-target="projects"><span class="tab-dot"></span>Projects</a>
+        <a class="nav-tab" href="#achievements" data-target="achievements"><span class="tab-dot"></span>Achievements</a>
+        <a class="nav-tab" href="#certifications" data-target="certifications"><span class="tab-dot"></span>Certifications</a>
+        <a class="nav-tab" href="#education" data-target="education"><span class="tab-dot"></span>Education</a>
+      </nav>
+
+      <div class="pill-avail"><span class="dot"></span> Available for opportunities</div>
+    </div>
+
+    <div class="hero-split" id="heroSplit">
+      <div class="intro">
+        <h1 class="intro-h1">
+          I am <span class="dynamic" id="typedText"></span><span class="cursor"></span>
+        </h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= ABOUT ================= -->
+<section class="blk" id="about">
+  <div class="wrap">
+    <div class="eyebrow">About me</div>
+    <div class="about-split">
+      <div class="intro">
+        <p class="intro-sub">I teach metal to move and silicon to think.</p>
+        <p class="intro-sub">
+          Full Stack Robotics Engineer working the entire stack: CAD, ROS2, computer vision, deep learning, motion planning, and autonomy. I turn concepts into robots that navigate, perceive, and act in the real world: AMRs, AGVs, robotic arms, and beyond.
+        </p>
+
+        <div class="socials">
+          <a class="social-link" href="https://www.linkedin.com/in/arunkumar-m-/" target="_blank" rel="noopener"><span class="s-mark">in</span> LinkedIn</a>
+          <a class="social-link" href="https://github.com/m-ramuk-nura" target="_blank" rel="noopener"><span class="s-mark">GH</span> GitHub</a>
+          <a class="social-link" href="mailto:marunkumar5767@gmail.com"><span class="s-mark">@</span> Email</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="hero-photo-frame">
+          <img src="media/533A3171.JPG" alt="ArunKumar M - Robotics Engineer" />
+          <div class="photo-vignette"></div>
+          <div class="hero-photo-caption"><span class="cap-dot"></span> ArunKumar M</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="blk" id="skills">
+  <div class="wrap">
+    <div class="eyebrow">Skills</div>
+    <h2 class="big">Technical <em>toolkit.</em></h2>
+    <div class="skills">
+      <div class="skill">
+        <h4>🤖 Robotics &amp; Autonomy</h4>
+        <ul class="skill-chips">
+          <li>ROS</li><li>ROS2</li><li>SLAM</li><li>Nav2</li><li>Motion planning</li><li>Control</li><li>Odometry</li><li>IMU</li><li>Waypoint navigation</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h4>🧠 AI, Deep Learning &amp; Computer Vision</h4>
+        <ul class="skill-chips">
+          <li>PyTorch</li><li>TensorFlow</li><li>OpenCV</li><li>YOLO</li><li>Roboflow</li><li>CNNs</li><li>Object detection</li><li>Sensor fusion</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h4>🦾 Robot Manipulation</h4>
+        <ul class="skill-chips">
+          <li>MoveIt</li><li>ROS2 Control</li><li>Forward kinematics</li><li>Inverse kinematics</li><li>6-DOF arms</li><li>Trajectory planning</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h4>⚡ Electronics</h4>
+        <ul class="skill-chips">
+          <li>ESP32</li><li>micro-ROS</li><li>Motor drivers</li><li>Encoders</li><li>UART</li><li>I2C</li><li>MQTT</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h4>💻 Programming</h4>
+        <ul class="skill-chips">
+          <li>Python</li><li>C++</li><li>C</li><li>Linux</li><li>Bash</li><li>Git</li><li>GitHub</li><li>Docker</li><li>AWS</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h4>📐 CAD, Simulation &amp; Prototyping</h4>
+        <ul class="skill-chips">
+          <li>SolidWorks</li><li>3D printing</li><li>Gazebo</li><li>MuJoCo</li><li>Rapid prototyping</li><li>Assembly</li><li>Hardware-software integration</li><li>Calibration</li><li>Testing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INTERNSHIPS ================= -->
+<section class="blk" id="internships">
+  <div class="wrap">
+    <div class="eyebrow">Internships</div>
+    <h2 class="big">Early <em>experience.</em></h2>
+    <div class="intern-grid">
+      <div class="intern-card">
+        <div class="role">ML Intern</div>
+        <h4>Robolog Automation</h4>
+        <p>Developed LSTM and autoencoder-based models for time-series sensor data to detect equipment anomalies and predict potential failures.</p>
+      </div>
+      <div class="intern-card">
+        <div class="role">Robotics Engineer · R&amp;D</div>
+        <h4>OPEL Industries</h4>
+        <p>Fabricated and developed an Autonomous Guided Vehicle (AGV) for shop-floor material handling, designed to transport tools and components between the tool room and CNC machines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="blk" id="projects">
+  <div class="wrap">
+    <div class="eyebrow">Selected work</div>
+    <h2 class="big">Featured <em>projects.</em></h2>
+    <p class="lead">From first sketch to first motion, I build the machines that build the future.</p>
+
+    <div class="filter-bar" id="filterBar"></div>
+
+    <div class="filter-result">
+      <span>Showing <span class="result-count" id="resultCount">0</span> <span id="resultLabel">projects</span></span>
+      <span class="result-line"></span>
+    </div>
+
+    <div class="proj-grid" id="projectGrid"></div>
+  </div>
+</section>
+
+<!-- ================= MODAL ================= -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modalContent"></div>
+</div>
+
+<!-- ================= ACHIEVEMENTS ================= -->
+<section class="blk" id="achievements">
+  <div class="wrap">
+    <div class="eyebrow">Recognition</div>
+    <h2 class="big">Achievements</h2>
+    <div class="ach-grid">
+      <div class="ach clickable" onclick="openModal('comp-mitsubishi')">
+        <div class="ach-cover"><span class="ico">🏆</span><img src="media/mitshubishi/cover.JPG" alt="Mitsubishi Electric Cup 2026" onerror="this.remove()"></div>
+        <div class="ach-body">
+          <h4>Appreciation Prize — Mitsubishi Electric Cup 2026</h4>
+          <p>Finished 7th in India at the Mitsubishi Electric Cup 2026. Team "Phoenix".</p>
+          <span class="lnk">View details →</span>
+        </div>
+      </div>
+      <div class="ach clickable" onclick="openModal('comp-ew')">
+        <div class="ach-cover"><span class="ico">🏆</span><img src="media//ew/1.jpg" alt="EW Project Challenge 2024" onerror="this.remove()"></div>
+        <div class="ach-body">
+          <h4>Creative Project Prize — EW Project Challenge 2024</h4>
+          <p>Top 5 in the Creative Project category for the "Autonomous Mobile Robot With Integrated Defense".</p>
+          <span class="lnk">View details →</span>
+        </div>
+      </div>
+      <div class="ach clickable" onclick="openModal('comp-aakruti')">
+        <div class="ach-cover"><span class="ico">🌐</span><img src="media/aakruti/4.jpg" alt="Aakruti Global 2024" onerror="this.remove()"></div>
+        <div class="ach-body">
+          <h4>Global Finalist — Aakruti Global 2024</h4>
+          <p>Finalist at the international Aakruti Global 2024 for the design of an autonomous surface water cleaning bot.</p>
+          <span class="lnk">View details →</span>
+        </div>
+      </div>
+      <div class="ach clickable" onclick="openModal('comp-hackrx')">
+        <div class="ach-cover"><span class="ico">🌐</span><img src="media/bajaj/2.jpeg" alt="Bajaj Finserv HackRx 6.0" onerror="this.remove()"></div>
+        <div class="ach-body">
+          <h4>National Finalist — Bajaj Finserv HackRx 6.0</h4>
+          <p>Reached the national finals of Bajaj Finserv HackRx 6.0 and placed in the top 10.</p>
+          <span class="lnk">View details →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="blk" id="certifications">
+  <div class="wrap">
+    <div class="eyebrow">Certifications</div>
+    <h2 class="big">Courses &amp; <em>credentials.</em></h2>
+    <p class="lead">Professional certifications and specialisations I've completed along the way.</p>
+
+    <div class="cert-grid">
+      <div class="cert">
+        <div class="cert-issuer">Dassault Systèmes</div>
+        <h4>SOLIDWORKS CAD Design Associate</h4>
+        <a class="cert-verify" href="https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-28F4CBZ3LD" target="_blank" rel="noopener">Verify certificate ↗</a>
+      </div>
+      <div class="cert">
+        <div class="cert-issuer">Udemy</div>
+        <h4>Computer Vision in Python for Beginners (Theory &amp; Projects)</h4>
+        <a class="cert-verify" href="https://www.udemy.com/certificate/UC-24f0bb91-8866-42cc-9635-03d9db1a90a0/" target="_blank" rel="noopener">Verify certificate ↗</a>
+      </div>
+      <div class="cert">
+        <div class="cert-issuer">Udemy</div>
+        <h4>Image Processing with Python PIL</h4>
+        <a class="cert-verify" href="https://www.udemy.com/certificate/UC-a05a34c0-2acd-4d99-8bc7-dc06e22e6624/" target="_blank" rel="noopener">Verify certificate ↗</a>
+      </div>
+      <div class="cert">
+        <div class="cert-issuer">NPTEL</div>
+        <h4>Social Networks</h4>
+        <a class="cert-verify" href="https://nptel.ac.in/noc/E_Certificate/NPTEL25CS65S54360027604445087" target="_blank" rel="noopener">Verify certificate ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section class="blk" id="education">
+  <div class="wrap">
+    <div class="eyebrow">Education</div>
+    <h2 class="big">Academic <em>background.</em></h2>
+    <div class="edu-list">
+      <div class="edu-row">
+        <div>
+          <div class="edu-inst">Bannari Amman Institute of Technology</div>
+          <div class="edu-meta">Sep 2023 — Present · CGPA 8.5</div>
+        </div>
+        <div class="edu-detail">B.Tech. in Artificial Intelligence &amp; Machine Learning.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta" id="contact">
+  <div class="wrap">
+    <h2>Let's build something <em>autonomous.</em></h2>
+    <p>Have a robot to build, a system to automate, or a role to fill? Let's talk.</p>
+    <a href="mailto:marunkumar5767@gmail.com" class="cta-btn">Contact me ↗</a>
+    <div class="socials">
+      <a class="social-link" href="https://www.linkedin.com/in/arunkumar-m-/" target="_blank" rel="noopener"><span class="s-mark">in</span> LinkedIn</a>
+      <a class="social-link" href="https://github.com/m-ramuk-nura" target="_blank" rel="noopener"><span class="s-mark">GH</span> GitHub</a>
+      <a class="social-link" href="mailto:marunkumar5767@gmail.com"><span class="s-mark">@</span> Email</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <p>© ArunKumar M — Full Stack Robotics Engineer</p>
+  </div>
+</footer>
+
+<script>
+  /* 1. TYPEWRITER HEADLINE */
+  const roles = [
+  'a Robotics Engineer',
+  'an ROS2 Developer',
+  'an Autonomy Engineer',
+  'a Mobile Robotics Engineer',
+  'a Vision Engineer',
+  'a Motion Planning Engineer',
+  'a Robot Software Developer',
+  'a Machine Learning Engineer',
+  'an Engineer of Things That Move',
+  'a Builder of Autonomous Machines',
+  'a Maker of Robots That Think',
+  'an Engineering Student',
+  ];
+  const typedEl = document.getElementById('typedText');
+  let roleIndex = 0, charIndex = 0, deleting = false;
+
+  function typeLoop() {
+    const current = roles[roleIndex];
+    if (!deleting) {
+      charIndex++;
+      typedEl.textContent = current.substring(0, charIndex);
+      if (charIndex === current.length) {
+        deleting = true;
+        setTimeout(typeLoop, 1700);
+        return;
+      }
+      setTimeout(typeLoop, 65 + Math.random() * 40);
+    } else {
+      charIndex--;
+      typedEl.textContent = current.substring(0, charIndex);
+      if (charIndex === 0) {
+        deleting = false;
+        roleIndex = (roleIndex + 1) % roles.length;
+        setTimeout(typeLoop, 320);
+        return;
+      }
+      setTimeout(typeLoop, 32);
+    }
+  }
+  typeLoop();
+
+  /* 2. SMOOTH SCROLL WITH STICKY NAV OFFSET */
+  const STICKY_HEIGHT = 72;
+
+  function scrollToTarget(targetId) {
+    const el = document.getElementById(targetId);
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const targetY = window.scrollY + rect.top - STICKY_HEIGHT;
+    window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
+  }
+
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href');
+      if (!href || href === '#') return;
+      const targetId = href.slice(1);
+      const targetEl = document.getElementById(targetId);
+      if (!targetEl) return;
+      e.preventDefault();
+      scrollToTarget(targetId);
+      history.pushState(null, '', '#' + targetId);
+    });
+  });
+
+  /* 3. STICKY NAV + ACTIVE TAB TRACKING */
+  const stickyNav = document.getElementById('stickyNav');
+  const navTabs = document.querySelectorAll('.nav-tab');
+  const stickyTabs = document.querySelectorAll('.sticky-tab');
+
+  const sectionIds = ['hero','about','skills','internships','projects','achievements','certifications','education','contact'];
+  const tabTargets = ['hero','about','skills','internships','projects','achievements','certifications','education'];
+
+  function updateNav() {
+    const y = window.scrollY;
+
+    if (y > window.innerHeight * 0.85) stickyNav.classList.add('visible');
+    else stickyNav.classList.remove('visible');
+
+    let active = 'hero';
+    for (const id of sectionIds) {
+      const el = document.getElementById(id);
+      if (!el) continue;
+      const rect = el.getBoundingClientRect();
+      if (rect.top <= STICKY_HEIGHT + 120) active = id;
+    }
+
+    if (!tabTargets.includes(active)) {
+      const idx = sectionIds.indexOf(active);
+      for (let i = idx; i >= 0; i--) {
+        if (tabTargets.includes(sectionIds[i])) { active = sectionIds[i]; break; }
+      }
+    }
+
+    navTabs.forEach(t => t.classList.toggle('active', t.getAttribute('data-target') === active));
+    stickyTabs.forEach(t => t.classList.toggle('active', t.getAttribute('data-target') === active));
+  }
+  window.addEventListener('scroll', updateNav, { passive: true });
+  updateNav();
+
+  /* 4. PROJECT DATA */
+  const projects = [
+    {
+      id: 'security-amr', group: 'amr',
+      category: 'AMR', icon: '',
+      title: 'Autonomous Mobile Robot for Security Surveillance',
+      desc: 'From-scratch security AMR: custom chassis, ROS SLAM navigation and an AI surveillance turret.',
+      tags: ['ROS2','RPLIDAR A2M8','SLAM','EKF'],
+      longDesc: 'A complete from-scratch security robot featuring a custom-built chassis, ROS-based SLAM navigation, and an AI-powered surveillance turret.',
+      highlights: [
+        'Custom chassis design and fabrication from scratch',
+        'ROS SLAM with RPLIDAR A2M8',
+        'EKF-based sensor fusion for robust state estimation',
+        'AI surveillance turret for real-time anomaly detection',
+        'EW Project challenge 2024'
+      ],
+      cover: 'media/amr/cover-picture.jpg',
+      gallery: [
+        { src: 'media/amr/chases.jpg' },
+        { src: 'media/amr/slam-map.jpg'},
+        { video: 'media/amr/field_test.mp4'}
+      ]
+    },
+    {
+      id: 'ur5-arm', group: 'manipulators',
+      category: 'Manipulator', icon: '',
+      title: 'UR5-Inspired Arm — Custom IK + Barcode Vision',
+      desc: 'Articulated manipulator with a custom inverse-kinematics solver and barcode-guided pick-and-place.',
+      tags: ['Inverse Kinematics','Computer Vision','Barcode','Motion Planning'],
+      longDesc: 'An articulated robotic arm inspired by the UR5, featuring a custom inverse-kinematics solver.',
+      highlights: [
+        'Custom inverse kinematics solver for 6-DOF manipulation',
+        'Barcode detection and decoding for object identification',
+        'Vision-guided pick-and-place motion planning',
+      ],
+      coverVideo: 'media/ur5/demo.mp4',
+      gallery: [
+        { src: 'media/ur5/1.jpg' },
+        { src: 'media/ur5/2.png'},
+        { src: 'media/ur5/3.png' },
+        { src: 'media/ur5/cover.jpg' }
+      ]
+    },
+    {
+      id: 'six-axis', group: 'manipulators',
+      category: 'Six-Axis', icon: '',
+      title: 'Autonomous Six-Axis Sorting Robot',
+      desc: 'From-scratch 6-DOF arm with deep learning, 3D vision and custom IK for warehouse package sorting.',
+      tags: ['Six-Axis','Deep Learning','3D Vision','Inverse Kinematics'],
+      longDesc: 'A from-scratch 6-DOF articulated robot arm designed for warehouse package sorting.',
+      highlights: [
+        'Custom 6-DOF arm designed and fabricated from scratch',
+        'Deep learning model for package classification',
+        '3D vision system for pose estimation and grasping',
+        'Patent applied for the design and control system'
+      ],
+      coverVideo: 'media/new_6axis/detection.mp4',
+      gallery: [
+        { src: 'media/new_6axis/1.jpg' },
+        { src: 'media/new_6axis/2.jpg'},
+        { src: 'media/new_6axis/3.jpg'}
+      ]
+    },
+    {
+      id: 'Autonomous Guided Vehicle For Material Handling',
+      group: 'amr',
+      category: 'Robotics & Automation',
+      icon: '',
+      award: 'OPEL Industries',
+      title: 'Autonomous Guided Vehicle For Material Handling',
+      desc: 'An autonomous guided vehicle that follows lane markers and ArUco tags to transport materials, with obstacle detection to halt safely when a path is blocked.',
+      tags: ['ArUco Markers', 'Lane Detection', 'Obstacle Detection', 'OpenCV'],
+      longDesc: 'An autonomous guided vehicle designed for material handling in industrial environments. It uses ArUco marker detection for localization and navigation cues, lane detection to stay on designated paths, and obstacle detection to stop when the path ahead is blocked.',
+      highlights: [
+        'ArUco marker-based localization and navigation',
+        'Lane detection to follow designated material transport paths',
+        'Obstacle detection with safe stop on blockage',
+        'Developed in collaboration with OPEL Industries'
+      ],
+      cover: 'assets/images/projects/crime-detection/cover.jpg',
+      coverVideo: 'media/agv/3.mp4',
+      gallery: [
+        { video: 'media/agv/1.webm' },
+        { src: 'media/agv/2.png' },
+
+      ]
+    },
+    {
+      id: 'marigold-robot', group: 'amr',
+      category: 'Autonomous Marigold Flower-Plucking Robot', icon: '',
+      title: 'Autonomous Marigold Flower-Plucking Robot',
+      desc: 'MSME-funded field robot that navigates marigold rows, detects flowers, and plucks them with a T-bot mechanism.',
+      tags: ['Navigation', 'Jetson', 'ESP32', 'RealSense', 'Computer Vision'],
+      longDesc: 'An autonomous robot for marigold harvesting, backed by ₹15 lakh in MSME funding. It navigates the field using a dedicated navigation camera, stops when its RealSense camera detects a flower, plucks it with a T-bot mechanism, and resumes navigation. A Jetson handles central processing, and an ESP32 drives the actuators.',
+      highlights: [
+        'Secured ₹15 lakh funding from MSME for the project',
+        'Developed the field navigation system so the robot moves through the marigold rows',
+        'Contributed to the mechanical and system design of the robot',
+        'Detect-stop-pluck-resume behavior cycle using a RealSense camera for flower detection',
+        'Separate camera dedicated to field navigation, with a Jetson as the central compute unit',
+        'ESP32-based actuator control for the T-bot plucking mechanism',
+        'Worked on the electronics, fixing noise in sensor data for more reliable readings'
+      ],
+      cover: 'media/marie-gold/1.jpg',
+      gallery: [
+        { video: 'media/marie-gold/1.mp4' },
+        { video: 'media/marie-gold/2.mp4' }
+      ]
+    },
+    {
+      id: 'ai-content-moderator', group: 'ai',
+      category: 'AI · Content Moderation', icon: '🛡️',
+      title: 'AI Based Content Moderator',
+      desc: 'Multimodal moderation system (SentryAI) that detects hate speech, violence and harmful audio across text, speech and video.',
+      tags: ['Deep Learning','LSTM','MobileNetV2','Audio Classification','Speech-to-Text','Docker'],
+      longDesc: 'SentryAI is a multimodal content moderation system that screens text, audio and video for harmful content. It combines an LSTM hate-speech classifier, speech-to-text transcription, audio event classification (including gunshot detection) and a MobileNetV2-based violence detector, served through a web interface and packaged with Docker.',
+      highlights: [
+        'Hate-speech detection on text using an LSTM model',
+        'Speech-to-text pipeline so spoken content can be moderated with the same text classifier',
+        'Audio classification trained on the UrbanSound8K dataset, including gunshot detection',
+        'Video violence detection using a MobileNetV2 transfer-learning model',
+        'SentryAI web app that brings text, audio and video moderation into one interface',
+        'Dockerized for easy, reproducible deployment'
+      ],
+      cover: 'assets/images/projects/edtech-ros/cover.jpg',
+      gallery: [
+       
+      ]
+    },
+    {
+      id: 'surface-water-cleaning-bot', group: 'hardware',
+      category: 'CAD · Design Competition', icon: '',
+      award: 'Aakruti Global 2024 · Finalist (Top 5)',
+      title: 'Surface water cleaning bot',
+      desc: 'Solar-powered autonomous catamaran concept that collects floating waste from lakes and rivers, designed for Aakruti Global 2024.',
+      tags: ['CAD','Solidworks','Product Design','Catamaran Hull','Solar','Autonomous Surface Vehicle'],
+      longDesc: 'A concept design for an autonomous surface vessel that removes floating debris from water bodies, created for the Aakruti Global 2024 international design competition, where it reached the final round (Top 5). A twin-hull catamaran carries a solar-panel roof, a LiDAR and camera sensor mast, side sweeping arms that funnel debris toward the bow, and an inclined conveyor that lifts it into a collection tray between the hulls. It is fully modeled and rendered in CAD.',
+      highlights: [
+        'Finalist (Top 5) at Aakruti Global 2024, an international design competition',
+        'Twin-hull catamaran design for stable floating and a wide central collection bay',
+        'Roof-mounted solar panel on a steel gantry frame to extend operating time',
+        'Dual stern thrusters with five-blade propellers for propulsion and differential steering',
+        'Complete 3D CAD model with hull, intake, mechanism and frame assemblies, plus photorealistic renders'
+      ],
+      cover: 'assets/images/projects/inverter/cover.jpg',
+      coverVideo: 'media/aakruti/1.mov',
+      gallery: [
+        { src: 'media/aakruti/1.png' },
+        { src: 'media/aakruti/2.jpg' },
+        { src: 'media/aakruti/3.jpg' },
+        
+      ]
+    },
+    {
+      id: 'predictive-maintenance', group: 'ai',
+      category: 'Industrial', icon: '',
+      award: 'Robolog Automation',
+      title: 'Predictive Maintenance',
+      desc: 'Predictive maintenance for ABB industrial motors using LSTM and autoencoder models on sensor data.',
+      tags: ['LSTM', 'Autoencoder', 'Time-Series', 'Anomaly Detection', 'Python'],
+      longDesc: 'Built during an ML internship at Robolog Automation (Jun–Aug 2025). An LSTM network and an autoencoder were trained on about 1,000,000 ABB motor sensor records to predict failures before they occur.',
+      highlights: [
+        'LSTM trained on multivariate time-series data (vibration, temperature, insulation resistance, current, voltage) to model degradation and predict failure',
+        'Autoencoder trained on normal motor behavior to flag anomalies through reconstruction error',
+        'Combined supervised (LSTM) and unsupervised (autoencoder) approaches for robust fault detection',
+        'Evaluated with precision, recall, F1-score, and reconstruction error in Python'
+      ],
+      cover: 'media/pred/cover.png',
+      gallery: [
+        { src: 'media/pred/4.png' },
+        { src: 'media/pred/2.png' },
+        { src: 'media/pred/3.png'},
+        { src: 'media/pred/1.png' }
+      ]
+    },
+    {
+      id: 'patient-feedback', group: 'ai',
+      category: 'AI · Healthcare', icon: '📞',
+      title: 'FeedbackCaller',
+      desc: 'Voice AI agent that automatically phones dental patients to collect feedback, managed from a Next.js dashboard backed by Airtable.',
+      tags: ['Voice AI','Vapi','Twilio','Next.js','Airtable'],
+      longDesc: 'An automated patient feedback system built for Aaress Dental. A web dashboard pulls patient records from Airtable and, with one click, triggers an AI voice assistant (Vapi, with Twilio telephony) that phones every patient who has not yet given feedback. Built with Next.js and deployed on Vercel.',
+      highlights: [
+        'AI voice assistant (Vapi + Twilio) that places outbound calls to patients and collects feedback by conversation',
+        'One-click "Call All Customers" batch calling from the dashboard, or a call to a single patient by phone number',
+        'Airtable as the patient database; only patients with no feedback recorded are called, so nobody is called twice',
+        'Next.js dashboard with a customer directory and live stats for total patients and feedback collected',
+        'Server-side API routes (Next.js) connecting Airtable, Vapi and Twilio, deployed on Vercel'
+      ],
+      cover: 'assets/images/projects/aqi-monitoring-system/cover.jpg',
+      gallery: [
+
+      ]
+    },
+    {
+      id: 'gesture-control', group: 'ai',
+      category: 'AI · Computer Vision', icon: '',
+      title: 'System Control using Gestures',
+      desc: 'Touchless desktop control on Arch Linux (Hyprland) using MediaPipe hand tracking to manage windows with gestures.',
+      tags: ['MediaPipe','Computer Vision','Hand Tracking','Python','Arch Linux','Hyprland'],
+      longDesc: 'A gesture-based interface that controls the entire desktop without touching the keyboard or mouse. Using MediaPipe hand tracking on a live camera feed, it recognizes hand gestures and maps them to window-manager actions on Arch Linux running the Hyprland compositor.',
+      highlights: [
+        'Real-time hand landmark detection and gesture recognition with MediaPipe',
+        'Gestures mapped to system actions: minimize, maximize, split screen, zoom in, zoom out, and more',
+        'Integrated with the Hyprland window manager on Arch Linux to control windows directly',
+        'Touchless, hands-free interaction that is useful for presentations and accessibility',
+        'Lightweight, low-latency pipeline that runs on a standard webcam'
+      ],
+      coverVideo: 'media/handgesture/cover.mp4',
+      gallery: [
+        { video: 'media/handgesture/cover.mp4' },
+   
+      ]
+    }
+  ];
+
+  /* 4b. COMPETITION DATA */
+  const competitions = [
+    {
+      id: 'comp-mitsubishi', category: 'Competition', icon: '🏆',
+      title: 'Mitsubishi Electric Cup 2026',
+      award: 'Appreciation Prize · 7th in India',
+      tags: ['Team Phoenix', 'Competition', 'Mitsubishi Electric'],
+      longDesc: 'Team Phoenix competed in the Mitsubishi Electric Cup 2026 and finished 7th in India, earning the Appreciation Prize.',
+      highlights: [
+        'Finished 7th in India',
+        'Received the Appreciation Prize',
+        'Competed as Team Phoenix'
+      ],
+      cover: 'media/mitshubishi/cover.jpg',
+      gallery: [
+        { src: 'media/mitshubishi/cover.JPG'},
+        { src: 'media/mitshubishi/1.jpeg', caption: 'Team Phoenix' },
+        { src: 'media/mitshubishi/2.JPG' },
+        { src: 'media/mitshubishi/3.jpeg'}
+      ]
+    },
+    {
+      id: 'comp-ew', category: 'Competition', icon: '🏆',
+      title: 'EW Project Challenge 2024',
+      award: 'Creative Project Prize · Top 5',
+      tags: ['Autonomous Mobile Robot', 'Creative Project', 'ElectronicWings'],
+      longDesc: 'Placed in the top 5 of the Creative Project category at the ElectronicWings Project Challenge 2024 with the "Autonomous Mobile Robot With Integrated Defense".',
+      highlights: [
+        'Top 5 in the Creative Project category',
+        'Project: Autonomous Mobile Robot With Integrated Defense',
+        'Hosted on ElectronicWings'
+      ],
+      link: 'https://www.electronicwings.com/users/arunkumaral23/projects/4274/autonomous-mobile-robot-with-integrated-defense',
+      linkLabel: 'View project on ElectronicWings',
+      cover: 'media/achievements/ew/cover.jpg',
+      gallery: [
+        { src: 'media//ew/1.jpg', caption: 'Robot' },
+        { src: 'media/achievements/ew/2.jpg', caption: 'Defense system' }
+      ]
+    },
+    {
+      id: 'comp-aakruti', category: 'Competition · Design', icon: '🌐',
+      title: 'Aakruti Global 2024',
+      award: 'Global Finalist · Top 5',
+      tags: ['CAD', 'Solidworks', 'Product Design', 'Autonomous Surface Vehicle'],
+      longDesc: 'Reached the final round of Aakruti Global 2024, an international design competition, with a concept for an autonomous surface water cleaning bot.',
+      highlights: [
+        'Global finalist at Aakruti Global 2024',
+        'Designed an autonomous surface water cleaning bot',
+        'India finale winner'
+      ],
+      cover: 'media/achievements/aakruti/cover.jpg',
+      gallery: [
+        { src: 'media/aakruti/4.jpg', caption: 'CAD model' },
+        { src: 'media/aakruti/5.jpg', caption: 'Render' },
+        { src: 'media/aakruti/6.jpg', caption: 'Render' },
+        { src: 'media/aakruti/7.jpg', caption: 'Render' },
+        { src: 'media/aakruti/8.jpg', caption: 'Render' },
+      ]
+    },
+    {
+      id: 'comp-hackrx', category: 'Competition · Hackathon', icon: '🌐',
+      title: 'Bajaj Finserv HackRx 6.0',
+      award: 'National Finalist · Top 10',
+      tags: ['Hackathon', 'National Finals'],
+      longDesc: 'Reached the national finals of Bajaj Finserv HackRx 6.0 and placed in the top 10.',
+      highlights: [
+        'National finalist',
+        'Placed in the top 10'
+      ],
+      cover: 'media/achievements/hackrx/cover.jpg',
+      gallery: [
+        { src: 'media/bajaj/1.jpeg', caption: 'Finals' },
+        { src: 'media/bajaj/2.jpeg', caption: 'Finals' },
+        { src: 'media/bajaj/3.jpg', caption: 'Finals' },
+      ]
+    }
+  ];
+
+  /* 5. FILTER BAR */
+  const filters = [
+    { key: 'all',          label: 'All' },
+    { key: 'amr',          label: 'AMR' },
+    { key: 'manipulators', label: 'Manipulators' },
+    { key: 'ai',           label: 'AI & Vision' },
+    { key: 'hardware',     label: 'Hardware' },
+  ];
+
+  /* 6. RENDER PROJECT CARDS */
+  const grid = document.getElementById('projectGrid');
+
+  projects.forEach(p => {
+    const card = document.createElement('article');
+    card.className = 'proj';
+    card.dataset.id = p.id;
+    card.dataset.group = p.group;
+
+    const coverMedia = p.coverVideo
+      ? `<video src="${p.coverVideo}" autoplay muted loop playsinline preload="metadata"
+                poster="${p.cover || ''}"
+                onerror="this.style.display='none'"></video>`
+      : (p.cover
+          ? `<img src="${p.cover}" alt="${p.title}" onerror="this.style.display='none'">`
+          : '');
+
+    card.innerHTML = `
+      <div class="proj-media">
+        <span class="tag">${p.category}</span>
+        ${coverMedia}
+        <div class="ico" style="z-index:3;position:relative;">${p.icon}</div>
+        <div class="play-hint">❖</div>
+      </div>
+      <div class="proj-body">
+        ${p.award ? `<div class="award">${p.award}</div>` : ''}
+        <h3>${p.title}</h3>
+        <p class="desc">${p.desc}</p>
+        <div class="proj-tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div>
+      </div>
+    `;
+    card.addEventListener('click', () => openModal(p.id));
+    grid.appendChild(card);
+  });
+
+  /* 7. FILTER LOGIC */
+  const filterBar = document.getElementById('filterBar');
+  const resultCount = document.getElementById('resultCount');
+  const resultLabel = document.getElementById('resultLabel');
+
+  filters.forEach(f => {
+    const count = f.key === 'all'
+      ? projects.length
+      : projects.filter(p => p.group === f.key).length;
+
+    const chip = document.createElement('button');
+    chip.className = 'filter-chip' + (f.key === 'all' ? ' active' : '');
+    chip.dataset.filter = f.key;
+    chip.innerHTML = `${f.label} <span class="count">${count}</span>`;
+    chip.addEventListener('click', () => setFilter(f.key));
+    filterBar.appendChild(chip);
+  });
+
+  function setFilter(key) {
+    document.querySelectorAll('.filter-chip').forEach(c => {
+      c.classList.toggle('active', c.dataset.filter === key);
+    });
+    let visible = 0;
+    document.querySelectorAll('.proj').forEach(card => {
+      const match = key === 'all' || card.dataset.group === key;
+      card.classList.toggle('hide', !match);
+      if (match) visible++;
+    });
+    resultCount.textContent = visible;
+    resultLabel.textContent = visible === 1 ? 'project' : 'projects';
+
+    let empty = document.getElementById('emptyState');
+    if (visible === 0) {
+      if (!empty) {
+        empty = document.createElement('div');
+        empty.id = 'emptyState';
+        empty.className = 'proj-empty';
+        empty.textContent = 'No projects in this category yet';
+        grid.appendChild(empty);
+      }
+    } else if (empty) empty.remove();
+  }
+  setFilter('all');
+
+  /* 8. MODAL LOGIC (projects and competitions) */
+  const overlay = document.getElementById('modalOverlay');
+  const modalContent = document.getElementById('modalContent');
+
+  function openModal(id) {
+    const p = [...projects, ...competitions].find(x => x.id === id);
+    if (!p) return;
+
+    const isComp = competitions.includes(p);
+    modalContent.classList.toggle('is-comp', isComp);
+
+    if (isComp) {
+      const coverBlock = p.cover
+        ? `<div class="cmp-cover"><img src="${p.cover}" alt="${p.title}" onerror="this.parentElement.remove()"></div>`
+        : '';
+
+      const compGallery = (p.gallery || []).length
+        ? `<div class="modal-section cmp-gallery">
+             <h4>Gallery</h4>
+             <div class="modal-gallery">
+               ${p.gallery.map(g => `
+                 <div class="g-item">
+                   <img src="${g.src}" alt="${g.caption || p.title}" onerror="this.parentElement.remove()">
+                   ${g.caption ? `<div class="g-caption">${g.caption}</div>` : ''}
+                 </div>`).join('')}
+             </div>
+           </div>`
+        : '';
+
+      modalContent.innerHTML = `
+        <button class="modal-close" id="modalCloseBtn" aria-label="Close">✕</button>
+        <div class="cmp">
+          ${coverBlock}
+          <div class="cmp-frame">
+            <div class="cmp-seal">${p.icon}</div>
+            <div class="cmp-kicker">${p.category}</div>
+            <h2 class="cmp-title">${p.title}</h2>
+            <div class="cmp-rule"><span></span>◆<span></span></div>
+            <div class="cmp-award">${p.award}</div>
+            <p class="cmp-desc">${p.longDesc}</p>
+            <ol class="cmp-list">
+              ${p.highlights.map((h, i) => `<li><span class="cmp-num">${String(i + 1).padStart(2, '0')}</span>${h}</li>`).join('')}
+            </ol>
+            ${compGallery}
+            <div class="cmp-tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div>
+            ${p.link ? `<a class="cmp-btn" href="${p.link}" target="_blank" rel="noopener">${p.linkLabel || 'View'} ↗</a>` : ''}
+          </div>
+        </div>
+      `;
+    } else {
+      const coverHtml = p.coverVideo
+        ? `<video src="${p.coverVideo}" autoplay muted loop playsinline preload="metadata"
+                  poster="${p.cover || ''}"
+                  onerror="this.style.display='none'"></video>`
+        : (p.cover
+            ? `<img src="${p.cover}" alt="${p.title}" onerror="this.style.display='none'">`
+            : '');
+
+      const galleryHtml = (p.gallery || []).map(g => {
+        const media = g.video
+          ? `<video src="${g.video}" autoplay muted loop playsinline preload="metadata"
+                    onerror="this.style.display='none'"></video>`
+          : (g.src
+              ? `<img src="${g.src}" alt="${g.caption || p.title}" onerror="this.style.display='none'">`
+              : '');
+        return `
+          <div class="g-item">
+            ${media}
+            <div class="g-fallback">${p.icon}</div>
+            ${g.caption ? `<div class="g-caption">${g.caption}</div>` : ''}
+          </div>
+        `;
+      }).join('');
+
+      modalContent.innerHTML = `
+        <button class="modal-close" id="modalCloseBtn" aria-label="Close">✕</button>
+        <div class="modal-media">
+          ${coverHtml}
+          <div class="ico">${p.icon}</div>
+          <div class="video-badge"><span class="pulse-dot"></span> ${p.title}</div>
+        </div>
+        <div class="modal-body">
+          <div class="m-cat">${p.category}</div>
+          <h2>${p.title}</h2>
+          ${p.award ? `<div class="m-award">${p.award}</div>` : ''}
+          <p class="m-desc">${p.longDesc}</p>
+
+          <div class="modal-section">
+            <h4>Highlights</h4>
+            <ul class="modal-highlights">
+              ${p.highlights.map(h => `<li>${h}</li>`).join('')}
+            </ul>
+          </div>
+
+          ${galleryHtml ? `
+          <div class="modal-section">
+            <h4>Gallery</h4>
+            <div class="modal-gallery">${galleryHtml}</div>
+          </div>
+          ` : ''}
+
+          <div class="modal-section">
+            <h4>Technologies &amp; tags</h4>
+            <div class="modal-tags">
+              ${p.tags.map(t => `<span>${t}</span>`).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    document.getElementById('modalCloseBtn').addEventListener('click', closeModal);
+    forceVideoAutoplay();
+  }
+
+  function closeModal() {
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && overlay.classList.contains('open')) closeModal();
+  });
+
+  /* 9. AUTOPLAY VIDEOS */
+  function forceVideoAutoplay() {
+    document.querySelectorAll('video').forEach(v => {
+      v.muted = true;
+      v.playsInline = true;
+      if (!v.hasAttribute('loop')) v.setAttribute('loop', '');
+      if (!v.hasAttribute('autoplay')) v.setAttribute('autoplay', '');
+      const playPromise = v.play();
+      if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(() => {
+          const resume = () => {
+            document.querySelectorAll('video').forEach(vv => {
+              vv.muted = true;
+              vv.play().catch(() => {});
+            });
+            document.removeEventListener('click', resume);
+            document.removeEventListener('scroll', resume);
+            document.removeEventListener('touchstart', resume);
+          };
+          document.addEventListener('click', resume, { once: true });
+          document.addEventListener('scroll', resume, { once: true });
+          document.addEventListener('touchstart', resume, { once: true });
+        });
+      }
+    });
+  }
+  forceVideoAutoplay();
+</script>
+
+</body>
+</html>
