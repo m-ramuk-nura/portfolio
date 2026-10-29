@@ -29,7 +29,7 @@
 <!-- ================= HERO (HOME) ================= -->
 <header class="hero" id="hero">
   <div class="hero-bg">
-    <video autoplay muted loop playsinline preload="auto" poster="assets/media/video/hero-poster.jpg">
+    <video autoplay muted loop playsinline preload="auto">
       <source src="media/covervideo-loop.mp4" type="video/mp4" />
     </video>
   </div>
@@ -82,7 +82,7 @@
 
       <div class="hero-photo">
         <div class="hero-photo-frame">
-          <img src="media/533A3171.JPG" alt="ArunKumar M - Robotics Engineer" />
+          <img src="media/533A3171.JPG" alt="ArunKumar M - Robotics Engineer" loading="lazy" />
           <div class="photo-vignette"></div>
           <div class="hero-photo-caption"><span class="cap-dot"></span> ArunKumar M</div>
         </div>
@@ -187,7 +187,7 @@
     <h2 class="big">Achievements</h2>
     <div class="ach-grid">
       <div class="ach clickable" onclick="openModal('comp-mitsubishi')">
-        <div class="ach-cover"><span class="ico">🏆</span><img src="media/mitshubishi/cover.JPG" alt="Mitsubishi Electric Cup 2026" onerror="this.remove()"></div>
+        <div class="ach-cover"><span class="ico">🏆</span><img src="media/mitshubishi/cover.JPG" alt="Mitsubishi Electric Cup 2026" loading="lazy" onerror="this.remove()"></div>
         <div class="ach-body">
           <h4>Appreciation Prize — Mitsubishi Electric Cup 2026</h4>
           <p>Finished 7th in India at the Mitsubishi Electric Cup 2026. Team "Phoenix".</p>
@@ -195,7 +195,7 @@
         </div>
       </div>
       <div class="ach clickable" onclick="openModal('comp-ew')">
-        <div class="ach-cover"><span class="ico">🏆</span><img src="media//ew/1.jpg" alt="EW Project Challenge 2024" onerror="this.remove()"></div>
+        <div class="ach-cover"><span class="ico">🏆</span><img src="media/ew/1.jpg" alt="EW Project Challenge 2024" loading="lazy" onerror="this.remove()"></div>
         <div class="ach-body">
           <h4>Creative Project Prize — EW Project Challenge 2024</h4>
           <p>Top 5 in the Creative Project category for the "Autonomous Mobile Robot With Integrated Defense".</p>
@@ -203,7 +203,7 @@
         </div>
       </div>
       <div class="ach clickable" onclick="openModal('comp-aakruti')">
-        <div class="ach-cover"><span class="ico">🌐</span><img src="media/aakruti/4.jpg" alt="Aakruti Global 2024" onerror="this.remove()"></div>
+        <div class="ach-cover"><span class="ico">🌐</span><img src="media/aakruti/4.jpg" alt="Aakruti Global 2024" loading="lazy" onerror="this.remove()"></div>
         <div class="ach-body">
           <h4>Global Finalist — Aakruti Global 2024</h4>
           <p>Finalist at the international Aakruti Global 2024 for the design of an autonomous surface water cleaning bot.</p>
@@ -211,7 +211,7 @@
         </div>
       </div>
       <div class="ach clickable" onclick="openModal('comp-hackrx')">
-        <div class="ach-cover"><span class="ico">🌐</span><img src="media/bajaj/2.jpeg" alt="Bajaj Finserv HackRx 6.0" onerror="this.remove()"></div>
+        <div class="ach-cover"><span class="ico">🌐</span><img src="media/bajaj/2.jpeg" alt="Bajaj Finserv HackRx 6.0" loading="lazy" onerror="this.remove()"></div>
         <div class="ach-body">
           <h4>National Finalist — Bajaj Finserv HackRx 6.0</h4>
           <p>Reached the national finals of Bajaj Finserv HackRx 6.0 and placed in the top 10.</p>
@@ -295,15 +295,15 @@
 <script>
   /* 1. TYPEWRITER HEADLINE */
   const roles = [
-  'a Robotics Engineer',
-  'an ROS2 Developer',
-  'a Vision Engineer',
-  'a Robot Software Developer',
-  'a Machine Learning Engineer',
-  'an Engineer of Things That Move',
-  'a Builder of Autonomous Machines',
-  'a Maker of Robots That Think',
-  'a FullStack Robotics Engineer',
+    'a Robotics Engineer',
+    'an ROS2 Developer',
+    'a Vision Engineer',
+    'a Robot Software Developer',
+    'a Machine Learning Engineer',
+    'an Engineer of Things That Move',
+    'a Builder of Autonomous Machines',
+    'a Maker of Robots That Think',
+    'a FullStack Robotics Engineer',
   ];
   const typedEl = document.getElementById('typedText');
   let roleIndex = 0, charIndex = 0, deleting = false;
@@ -411,8 +411,8 @@
       cover: 'media/amr/cover-picture.jpg',
       gallery: [
         { src: 'media/amr/chases.jpg' },
-        { src: 'media/amr/slam-map.jpg'},
-        { video: 'media/amr/field_test.mp4'}
+        { src: 'media/amr/slam-map.jpg' },
+        { video: 'media/amr/field_test.mp4' }
       ]
     },
     {
@@ -425,12 +425,12 @@
       highlights: [
         'Custom inverse kinematics solver for 6-DOF manipulation',
         'Barcode detection and decoding for object identification',
-        'Vision-guided pick-and-place motion planning',
+        'Vision-guided pick-and-place motion planning'
       ],
       coverVideo: 'media/ur5/demo.mp4',
       gallery: [
         { src: 'media/ur5/1.jpg' },
-        { src: 'media/ur5/2.png'},
+        { src: 'media/ur5/2.png' },
         { src: 'media/ur5/3.png' },
         { src: 'media/ur5/cover.jpg' }
       ]
@@ -451,8 +451,8 @@
       coverVideo: 'media/new_6axis/detection.mp4',
       gallery: [
         { src: 'media/new_6axis/1.jpg' },
-        { src: 'media/new_6axis/2.jpg'},
-        { src: 'media/new_6axis/3.jpg'}
+        { src: 'media/new_6axis/2.jpg' },
+        { src: 'media/new_6axis/3.jpg' }
       ]
     },
     {
@@ -475,8 +475,7 @@
       coverVideo: 'media/agv/3.mp4',
       gallery: [
         { video: 'media/agv/1.webm' },
-        { src: 'media/agv/2.png' },
-
+        { src: 'media/agv/2.png' }
       ]
     },
     {
@@ -517,9 +516,7 @@
         'Dockerized for easy, reproducible deployment'
       ],
       cover: 'assets/images/projects/edtech-ros/cover.jpg',
-      gallery: [
-       
-      ]
+      gallery: []
     },
     {
       id: 'surface-water-cleaning-bot', group: 'hardware',
@@ -541,8 +538,7 @@
       gallery: [
         { src: 'media/aakruti/1.png' },
         { src: 'media/aakruti/2.jpg' },
-        { src: 'media/aakruti/3.jpg' },
-        
+        { src: 'media/aakruti/3.jpg' }
       ]
     },
     {
@@ -563,7 +559,7 @@
       gallery: [
         { src: 'media/pred/4.png' },
         { src: 'media/pred/2.png' },
-        { src: 'media/pred/3.png'},
+        { src: 'media/pred/3.png' },
         { src: 'media/pred/1.png' }
       ]
     },
@@ -582,9 +578,7 @@
         'Server-side API routes (Next.js) connecting Airtable, Vapi and Twilio, deployed on Vercel'
       ],
       cover: 'assets/images/projects/aqi-monitoring-system/cover.jpg',
-      gallery: [
-
-      ]
+      gallery: []
     },
     {
       id: 'gesture-control', group: 'ai',
@@ -602,8 +596,7 @@
       ],
       coverVideo: 'media/handgesture/cover.mp4',
       gallery: [
-        { video: 'media/handgesture/cover.mp4' },
-   
+        { video: 'media/handgesture/cover.mp4' }
       ]
     }
   ];
@@ -623,10 +616,10 @@
       ],
       cover: 'media/mitshubishi/cover.jpg',
       gallery: [
-        { src: 'media/mitshubishi/cover.JPG'},
+        { src: 'media/mitshubishi/cover.JPG' },
         { src: 'media/mitshubishi/1.jpeg', caption: 'Team Phoenix' },
         { src: 'media/mitshubishi/2.JPG' },
-        { src: 'media/mitshubishi/3.jpeg'}
+        { src: 'media/mitshubishi/3.jpeg' }
       ]
     },
     {
@@ -644,7 +637,7 @@
       linkLabel: 'View project on ElectronicWings',
       cover: 'media/achievements/ew/cover.jpg',
       gallery: [
-        { src: 'media//ew/1.jpg' },
+        { src: 'media/ew/1.jpg' }
       ]
     },
     {
@@ -660,11 +653,11 @@
       ],
       cover: 'media/achievements/aakruti/cover.jpg',
       gallery: [
-        { src: 'media/aakruti/4.jpg'},
+        { src: 'media/aakruti/4.jpg' },
         { src: 'media/aakruti/5.jpg' },
         { src: 'media/aakruti/6.jpg' },
-        { src: 'media/aakruti/7.jpg'},
-        { src: 'media/aakruti/8.jpg' },
+        { src: 'media/aakruti/7.jpg' },
+        { src: 'media/aakruti/8.jpg' }
       ]
     },
     {
@@ -681,7 +674,7 @@
       gallery: [
         { src: 'media/bajaj/1.jpeg' },
         { src: 'media/bajaj/2.jpeg' },
-        { src: 'media/bajaj/3.jpg'},
+        { src: 'media/bajaj/3.jpg' }
       ]
     }
   ];
@@ -704,12 +697,13 @@
     card.dataset.id = p.id;
     card.dataset.group = p.group;
 
+    // Card videos: no autoplay, no preload. They load only when scrolled into view.
     const coverMedia = p.coverVideo
-      ? `<video src="${p.coverVideo}" autoplay muted loop playsinline preload="metadata"
+      ? `<video src="${p.coverVideo}" muted loop playsinline preload="none"
                 poster="${p.cover || ''}"
                 onerror="this.style.display='none'"></video>`
       : (p.cover
-          ? `<img src="${p.cover}" alt="${p.title}" onerror="this.style.display='none'">`
+          ? `<img src="${p.cover}" alt="${p.title}" loading="lazy" onerror="this.style.display='none'">`
           : '');
 
     card.innerHTML = `
@@ -787,7 +781,7 @@
 
     if (isComp) {
       const coverBlock = p.cover
-        ? `<div class="cmp-cover"><img src="${p.cover}" alt="${p.title}" onerror="this.parentElement.remove()"></div>`
+        ? `<div class="cmp-cover"><img src="${p.cover}" alt="${p.title}" loading="lazy" onerror="this.parentElement.remove()"></div>`
         : '';
 
       const compGallery = (p.gallery || []).length
@@ -796,7 +790,7 @@
              <div class="modal-gallery">
                ${p.gallery.map(g => `
                  <div class="g-item">
-                   <img src="${g.src}" alt="${g.caption || p.title}" onerror="this.parentElement.remove()">
+                   <img src="${g.src}" alt="${g.caption || p.title}" loading="lazy" onerror="this.parentElement.remove()">
                    ${g.caption ? `<div class="g-caption">${g.caption}</div>` : ''}
                  </div>`).join('')}
              </div>
@@ -825,19 +819,19 @@
       `;
     } else {
       const coverHtml = p.coverVideo
-        ? `<video src="${p.coverVideo}" autoplay muted loop playsinline preload="metadata"
+        ? `<video src="${p.coverVideo}" muted loop playsinline preload="none"
                   poster="${p.cover || ''}"
                   onerror="this.style.display='none'"></video>`
         : (p.cover
-            ? `<img src="${p.cover}" alt="${p.title}" onerror="this.style.display='none'">`
+            ? `<img src="${p.cover}" alt="${p.title}" loading="lazy" onerror="this.style.display='none'">`
             : '');
 
       const galleryHtml = (p.gallery || []).map(g => {
         const media = g.video
-          ? `<video src="${g.video}" autoplay muted loop playsinline preload="metadata"
+          ? `<video src="${g.video}" muted loop playsinline preload="none"
                     onerror="this.style.display='none'"></video>`
           : (g.src
-              ? `<img src="${g.src}" alt="${g.caption || p.title}" onerror="this.style.display='none'">`
+              ? `<img src="${g.src}" alt="${g.caption || p.title}" loading="lazy" onerror="this.style.display='none'">`
               : '');
         return `
           <div class="g-item">
@@ -888,12 +882,14 @@
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
     document.getElementById('modalCloseBtn').addEventListener('click', closeModal);
-    forceVideoAutoplay();
+    playModalVideos();
   }
 
   function closeModal() {
     overlay.classList.remove('open');
     document.body.style.overflow = '';
+    // Stop modal videos so they stop downloading and decoding
+    modalContent.querySelectorAll('video').forEach(v => v.pause());
   }
 
   overlay.addEventListener('click', (e) => {
@@ -903,33 +899,40 @@
     if (e.key === 'Escape' && overlay.classList.contains('open')) closeModal();
   });
 
-  /* 9. AUTOPLAY VIDEOS */
-  function forceVideoAutoplay() {
-    document.querySelectorAll('video').forEach(v => {
-      v.muted = true;
-      v.playsInline = true;
-      if (!v.hasAttribute('loop')) v.setAttribute('loop', '');
-      if (!v.hasAttribute('autoplay')) v.setAttribute('autoplay', '');
-      const playPromise = v.play();
-      if (playPromise && typeof playPromise.catch === 'function') {
-        playPromise.catch(() => {
-          const resume = () => {
-            document.querySelectorAll('video').forEach(vv => {
-              vv.muted = true;
-              vv.play().catch(() => {});
-            });
-            document.removeEventListener('click', resume);
-            document.removeEventListener('scroll', resume);
-            document.removeEventListener('touchstart', resume);
-          };
-          document.addEventListener('click', resume, { once: true });
-          document.addEventListener('scroll', resume, { once: true });
-          document.addEventListener('touchstart', resume, { once: true });
-        });
-      }
-    });
+  /* 9. VIDEO PLAYBACK
+     - Hero and card videos play only while visible on screen.
+     - Modal videos play when a project is opened. */
+  function playVideo(v) {
+    v.muted = true;
+    v.playsInline = true;
+    const p = v.play();
+    if (p && typeof p.catch === 'function') p.catch(() => {});
   }
-  forceVideoAutoplay();
+
+  function playModalVideos() {
+    modalContent.querySelectorAll('video').forEach(playVideo);
+  }
+
+  const videoObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const v = entry.target;
+      if (entry.isIntersecting) playVideo(v);
+      else v.pause();
+    });
+  }, { threshold: 0.25 });
+
+  document.querySelectorAll('.hero-bg video, .proj-media video').forEach(v => {
+    videoObserver.observe(v);
+  });
+
+  // Browsers block autoplay until the user interacts. Retry on first interaction.
+  const resumeOnInteraction = () => {
+    document.querySelectorAll('.hero-bg video').forEach(playVideo);
+    document.removeEventListener('click', resumeOnInteraction);
+    document.removeEventListener('touchstart', resumeOnInteraction);
+  };
+  document.addEventListener('click', resumeOnInteraction, { once: true });
+  document.addEventListener('touchstart', resumeOnInteraction, { once: true });
 </script>
 
 </body>
